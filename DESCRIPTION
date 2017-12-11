@@ -1,0 +1,22 @@
+Package: bnsurvR
+Type: Package
+Title: Non-parametric Bayesian survival analysis with multivariate gamma kernel
+Version: 0.1.0
+Authors@R: c(
+            person("Taha", "Monfared", email="taha.monfared@csu.fullerton.edu", 
+                  role=c("aut","cre")),
+            person("Valerie", "Poynor", email="vpoynor@fullerton.edu", role="aut"))
+Description: We are trying to produce non parametric bivariate gamma survival analysis.
+    Our first step is to produce the bivariate results expanded on univariate case described in
+    previous papers. We focus on functionals of the produced results, namely mean residual life 
+    function.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Imports:
+    MCMCpack,
+    scales
+Suggests:
+    shinydashboard,
+    shiny
+RoxygenNote: 6.0.1
